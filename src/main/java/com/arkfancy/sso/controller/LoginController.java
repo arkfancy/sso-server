@@ -65,7 +65,7 @@ public class LoginController extends ApiController {
 		return success(true);
 	}
 
-	@GetMapping("/log-info")
+	@GetMapping("/info")
 	@Login
 	public R<Map<String, Object>> info(String returnUrl, HttpServletRequest request, HttpServletResponse response) {
 		SSOToken ssoToken = SSOHelper.attrToken(request);
