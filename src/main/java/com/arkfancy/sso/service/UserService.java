@@ -1,15 +1,15 @@
-package com.arkfancy.sso.service.user;
+package com.arkfancy.sso.service;
 
-import com.arkfancy.sso.entity.user.User;
+import com.arkfancy.sso.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
- *  服务类
+ * 用户 服务类
  * </p>
  *
  * @author arkfancy
- * @since 2019-09-11
+ * @since 2019-09-27
  */
 public interface UserService extends IService<User> {
 

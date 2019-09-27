@@ -15,8 +15,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.arkfancy.sso.entity.user.User;
-import com.arkfancy.sso.service.user.UserService;
+import com.arkfancy.sso.entity.User;
+import com.arkfancy.sso.service.UserService;
 import com.arkfancy.sso.support.util.MD5Util;
 import com.baomidou.kisso.SSOHelper;
 import com.baomidou.kisso.annotation.Login;
